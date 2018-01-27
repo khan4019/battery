@@ -76,7 +76,9 @@ background-size: cover;
         padding: 2px 14px 2px 14px;
     border: 1px solid #ddd;
     border-radius: 5px;
-}
+}    
+
+.radio:hover{background: #eee;}
 .radio, .checkbox{
     width: 100%;
     margin-bottom: 15px !important;
@@ -166,3 +168,5 @@ background-size: cover;
     word-wrap: break-word;
     cursor: pointer;
 }
+
+.btn a{text-decoration:none; color:#fff;}
