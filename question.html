@@ -34,7 +34,7 @@
 <div class="container">
 <form method="post">
 <!-- Question Start -->
-	<div class="jumbotron jumboPad" style="box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
+	<div id="battery-question-1" class="jumbotron jumboPad" style="box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
     border-radius: 0.375rem; margin-bottom: 15px;margin-top: 10px;margin-left: 5px;margin-right: 5px;">
 				<h4 class="quizName">
 					লাইফের ব্যাটারির চার্জ মাপো<br>
@@ -68,7 +68,7 @@
 			</div> 
 			
 			    <div style="width: 100%; padding-top: 15px; text-align:right; ">
-      <button type="button" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
+      <button type="button" onclick="displayQuestion(2,1)" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
     </div>
 	
 			</div> 	
@@ -81,7 +81,7 @@
 
 
 <!-- Question Start 2 -->
-<div class="row centered">
+<div  id="battery-question-2" class="row centered">
 <div class="col-sm-8">
 			<div class="jumbotron jumboPad" style="box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
     border-radius: 0.375rem; margin-bottom: 15px;margin-top: 10px;margin-left: 5px;margin-right: 5px;">
@@ -139,7 +139,7 @@
 			
 			
     <div style="width: 100%; padding-top: 15px; text-align:right; ">
-      <button type="button" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
+      <button type="button" onclick="displayQuestion(3,2)" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
     </div>
 			
 			</div> 
@@ -153,7 +153,7 @@
 
 
 <!-- Question Start 3 -->
-<div class="row centered">
+<div id="battery-question-3" class="row centered">
 <div class="col-sm-8">
 			<div class="jumbotron jumboPad" style="box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
     border-radius: 0.375rem; margin-bottom: 15px;margin-top: 10px;margin-left: 5px;margin-right: 5px;">
@@ -211,7 +211,7 @@
 			
 			
     <div style="width: 100%; padding-top: 15px; text-align:right; ">
-      <button type="button" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
+      <button type="button" onclick="displayQuestion(4,3)" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
     </div>
 			
 			</div> 
@@ -227,7 +227,7 @@
 
 
 <!-- Question Start 4 -->
-<div class="row centered">
+<div id="battery-question-4" class="row centered">
 <div class="col-sm-8">
 			<div class="jumbotron jumboPad" style="box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
     border-radius: 0.375rem; margin-bottom: 15px;margin-top: 10px;margin-left: 5px;margin-right: 5px;">
@@ -285,7 +285,7 @@
 			
 			
     <div style="width: 100%; padding-top: 15px; text-align:right; ">
-      <button type="button" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
+      <button type="button" onclick="displayQuestion(5,4)" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
     </div>
 			
 			</div> 
@@ -300,7 +300,7 @@
 
 
 <!-- Question Start 5 -->
-<div class="row centered">
+<div id="battery-question-5" class="row centered">
 <div class="col-sm-8">
 			<div class="jumbotron jumboPad" style="box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
     border-radius: 0.375rem; margin-bottom: 15px;margin-top: 10px;margin-left: 5px;margin-right: 5px;">
@@ -358,7 +358,7 @@
 			
 			
     <div style="width: 100%; padding-top: 15px; text-align:right; ">
-      <button type="button" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
+      <button type="button" onclick="displayQuestion(6,5)" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
     </div>
 			
 			</div> 
@@ -373,7 +373,7 @@
 
 
 <!-- Question Start 6-->
-<div class="row centered">
+<div  id="battery-question-6" class="row centered">
 <div class="col-sm-8">
 			<div class="jumbotron jumboPad" style="box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
     border-radius: 0.375rem; margin-bottom: 15px;margin-top: 10px;margin-left: 5px;margin-right: 5px;">
@@ -431,7 +431,7 @@
 			
 			
     <div style="width: 100%; padding-top: 15px; text-align:right; ">
-      <button type="button" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
+      <button type="button" onclick="displayQuestion(7,6)" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
     </div>
 			
 			</div> 
@@ -445,7 +445,7 @@
 
 
 <!-- Question Start 7-->
-<div class="row centered">
+<div id="battery-question-7" class="row centered">
 <div class="col-sm-8">
 			<div class="jumbotron jumboPad" style="box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
     border-radius: 0.375rem; margin-bottom: 15px;margin-top: 10px;margin-left: 5px;margin-right: 5px;">
@@ -503,7 +503,7 @@
 			
 			
     <div style="width: 100%; padding-top: 15px; text-align:right; ">
-      <button type="button" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
+      <button type="button" onclick="displayQuestion(8,7)" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
     </div>
 			
 			</div> 
@@ -518,7 +518,7 @@
 
 
 <!-- Question Start 8 -->
-<div class="row centered">
+<div id="battery-question-8" class="row centered">
 <div class="col-sm-8">
 			<div class="jumbotron jumboPad" style="box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
     border-radius: 0.375rem; margin-bottom: 15px;margin-top: 10px;margin-left: 5px;margin-right: 5px;">
@@ -576,7 +576,7 @@
 			
 			
     <div style="width: 100%; padding-top: 15px; text-align:right; ">
-      <button type="button" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
+      <button type="button" onclick="displayQuestion(9,8)" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
     </div>
 			
 			</div> 
@@ -591,7 +591,7 @@
 
 
 <!-- Question Start 9 -->
-<div class="row centered">
+<div id="battery-question-9" class="row centered">
 <div class="col-sm-8">
 			<div class="jumbotron jumboPad" style="box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
     border-radius: 0.375rem; margin-bottom: 15px;margin-top: 10px;margin-left: 5px;margin-right: 5px;">
@@ -649,7 +649,7 @@
 			
 			
     <div style="width: 100%; padding-top: 15px; text-align:right; ">
-      <button type="button" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
+      <button type="button" onclick="displayQuestion(10,9)" class="btn btn-success btn-rounded">পরের  প্রশ্ন</button>
     </div>
 			
 			</div> 
@@ -664,7 +664,7 @@
 
 
 <!-- Question Start 10 -->
-<div class="row centered">
+<div id="battery-question-10" class="row centered">
 <div class="col-sm-8">
 			<div class="jumbotron jumboPad" style="box-shadow: 5px 5px 25px 0px rgba(46,61,73,0.2);
     border-radius: 0.375rem; margin-bottom: 15px;margin-top: 10px;margin-left: 5px;margin-right: 5px;">
@@ -743,4 +743,22 @@
 
 <div id="footer">
 <center><a href="#">Recharge Your Down Battery</a>&nbsp;© 2018. All Rights Reserved.</center>
-</div></body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
+</div>
+<script>
+	var question_position = 1;
+	var score = [];
+	function displayQuestion(showPosition, hidePosition){
+		updateDisplay(showPosition, 'block');
+		updateDisplay(hidePosition, 'none');
+	}
+	function updateDisplay(position, display){
+		var currentQuestion = document.getElementById('battery-question-' + position);
+		if(currentQuestion){
+			currentQuestion.style.display = display;
+		}
+	}
+	displayQuestion(1,0);
+
+	
+</script>
+</body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
