@@ -190,3 +190,24 @@
 		       background-position: 50px 50px;
 		    }
 		}
+
+		.jumbotron .btn{
+			padding: 12px 12px;
+			font-size: 19px;
+			border: none;
+			background-color: #02b3e4 !important;
+			color: #fff!important;
+			box-shadow: 3px 5px 20px 0px rgba(46,61,73,0.15);
+		}
+	
+		.jumbotron .btn:hover{
+			background-color: #11b7e6 !important;
+		}
+
+.lead small{
+color: #192027;
+	font-weight: 400;
+	font-size: 18px;
+	display:  block;
+	text-align: left;
+}

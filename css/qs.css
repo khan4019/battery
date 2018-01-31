@@ -77,11 +77,11 @@ font-family:verdana, Helvetica;
 }
 .radio{
     background: #f6f6f6;
-        padding: 2px 14px 2px 14px;
+    padding: 2px 14px 2px 14px !important;
     border: 1px solid #ddd;
+    display: block !important;
     border-radius: 5px;
 }    
-
 .radio:hover{background: #eee;}
 .radio, .checkbox{
     width: 100%;
@@ -240,8 +240,6 @@ font-family:verdana, Helvetica;
     font-weight: 400;
   }
   
-
-
   
 .facebook-share {
 	background-color: #4C67A1;
@@ -257,3 +255,6 @@ font-family:verdana, Helvetica;
     color: #fff;
 	background-color: #405D9B;
   }
+.question-title{
+    display: table;
+}
