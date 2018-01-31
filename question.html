@@ -589,8 +589,8 @@
                 <div class="img-container">
                  
                         <div class="battery-result helth">
-                                <div class="battery-resultcolumn" style="height:75%"></div>
-                                <b>75%</b>
+                                <div id="battery-filled" class="battery-resultcolumn" style="height:75%"></div>
+                                <b id="battery-text">75%</b>
                             </div>
           
                 </div>
@@ -659,7 +659,23 @@
 					}
 					if (hidePosition == 10) {
 						var chargeLevel = calculateScore();
-						console.log('your score is: ' + chargeLevel + '%');
+						var chargeLevelText = chargeLevel + '%';
+						var backgroundColor;
+						if(chargeLevel>75){
+							backgroundColor = '#5cb85c';
+						} else if (chargeLevel > 50){
+							backgroundColor = '#66da58';
+						} else if (chargeLevel > 25){
+							backgroundColor = '#ff9900';
+						} else {
+							backgroundColor = 'red';
+						}
+						var batteryFiller = document.getElementById('battery-filled');
+						batteryFiller.style.height = chargeLevelText;
+						batteryFiller.style.backgroundColor = backgroundColor;
+
+						document.getElementById('battery-text').innerText= chargeLevelText;
+						console.log('your score is: ' + chargeLevelText);
 
 					}
 				}
