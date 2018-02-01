@@ -75,6 +75,16 @@ font-family:verdana, Helvetica;
 [id^=battery-question]{
     display: none;
 }
+[id^=result-guide-]{
+    display: none;
+}
+
+.result-help-text{
+    text-align: left;
+    font-size: 18px;
+    color: gray;
+}
+
 .radio{
     background: #f6f6f6;
     padding: 2px 14px 2px 14px !important;
