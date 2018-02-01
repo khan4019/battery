@@ -257,4 +257,5 @@ font-family:verdana, Helvetica;
   }
 .question-title{
     display: table;
+    height: 105px;
 }
