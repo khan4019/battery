@@ -4,19 +4,6 @@
 .battery-result:before{content:"";position:absolute;left:58%;top:-16px;height:8px;width:40px;margin-left:-30px;background-color:#ccc;-ms-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;}
 .battery-resultcolumn{background-color:#ccc;position:absolute;left:0;right:0;bottom:0;}
 
-.battery-resultcolumn:after{content:"";width:100%;position:absolute;background-color:#fff;top:0;bottom:auto;}
-
-.battery-result.helth:after{border-color:#5cb85c;}
-.battery-result.helth:before,.battery-result.helth .battery-resultcolumn{background-color:#5cb85c;}
-
-.battery-result.subhelth:after{border-color:#ec971f;}
-.battery-result.subhelth:before,.battery-result.subhelth .battery-resultcolumn{background-color:#ec971f;}
-
-/*#c9302c*/
-.battery-result.danger:after{border-color:#c9302c;}
-.battery-result.danger:before,.battery-result.danger .battery-resultcolumn{background-color:#c9302c;}
-
-
 
 @-webkit-keyframes discharging{
 	0% {height:0%; }
