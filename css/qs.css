@@ -29,8 +29,13 @@ background-size: cover;
 	.quizName {
 		font-size: 18px;
 	}
-}
+}    
 
+@media ( min-height : 580px) {
+	.img-container {
+		left: 35px;
+	}
+}
 
 .questionNumbers {
 	font-size: 11px;
@@ -202,9 +207,8 @@ background-size: cover;
   }
   
   .content{
-    width: 60%;
-    float: left;
-    padding: 30px 40px;
+
+    padding: 5px 15px;
     box-sizing: border-box;
   }
   
@@ -264,3 +268,4 @@ background-size: cover;
     display: table;
     height: 105px;
 }
+
