@@ -5,6 +5,11 @@
 .battery-resultcolumn{background-color:#ccc;position:absolute;left:0;right:0;bottom:0;}
 
 
+.battery-resultcolumn:after{content:"";width:100%;position:absolute;background-color:#fff;top:0;bottom:auto;}
+
+.battery-result.helth:after{border-color:#5cb85c;}
+.battery-result.helth:before,.battery-result.helth .battery-resultcolumn{background-color:#5cb85c;}
+
 @-webkit-keyframes discharging{
 	0% {height:0%; }
 	50% {height:0%;}

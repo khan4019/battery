@@ -194,7 +194,7 @@ background-size: cover;
   }
   
   .img-container{
-
+    left: 0;
     float: left;
     position: relative;
   }
